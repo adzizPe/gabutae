@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" href="image/umsu.png" type="image/x-icon">
+    <audio autoplay loop>
+        <source src="maumuntah.mp3" type="audio/mpeg">
+       </audio>
+  <!--  Meta  -->
+  <meta charset="UTF-8" />
+  <title>GAMEDZIZ</title>
+  
+  <!--  Styles  -->
+  <link href="https://fonts.googleapis.com/css?family=Doppio+One" rel="stylesheet">
+  <link rel="stylesheet" href="styles/index.processed.css">
+</head>
+<body>
+  <div class="wrapper">
+    <div class="content">
+        <h1>GAME BATU</h1>
+        <p>
+           <h4>cb:tumpukan 4 batu secara horizontal maupun vertikal</h4>
+        </p>
+      <div class="sidebar">
+
+        
+        <div class="panel dif">
+          <h2>Level kesulitan</h2>
+          <div class="dif-options">
+            <div>
+              <input id="dif1" type="radio" name="dif-options" value="1">
+              <label for="dif1">1</label>
+            </div>
+            <div>
+              <input id="dif2" type="radio" name="dif-options" value="2">
+              <label for="dif2">2</label>
+            </div>
+            <div>
+              <input id="dif3" type="radio" name="dif-options" value="3" checked>
+              <label for="dif3">3</label>
+            </div>
+            <div>
+              <input id="dif4" type="radio" name="dif-options" value="4">
+              <label for="dif4">4</label>
+            </div>
+            <div>
+              <input id="dif5" type="radio" name="dif-options" value="5">
+              <label for="dif5">5</label>
+            </div>
+          </div>
+          <div class="start">
+            <button>Start Game</button>
+          </div>
+        </div>
+        <div class="panel info">
+          <h2></h2>
+          <div class="blurb"></div>
+          <div class="outlook"></div>
+        </div>
+      </div>
+      <div class="board">
+        <div class="lit-columns">
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+        <div class="lit-cells"></div>
+        <div class="chips"></div>
+        <div class="click-columns">
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="scripts/index.js"></script>
+</body>
+</html>
