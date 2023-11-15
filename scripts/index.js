@@ -14,11 +14,11 @@ const BLURBS = {
     blurb: 'The computer is trying to find the best way to make you lose.'
   },
   'p1-win': {
-    header: 'You Win',
+    header: 'Kamu Menang',
     blurb: 'You are a winner. Remember this moment. Carry it with you, forever.'
   },
   'p2-win': {
-    header: 'Computer Wins',
+    header: 'Komputer Menang',
     blurb: 'Try again when you\'re done wiping your tears of shame.'
   },
   'tie': {
